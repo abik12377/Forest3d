@@ -24,64 +24,7 @@ footer{border-top:1px solid var(--line);padding:25px clamp(18px,4vw,48px);displa
 @media(max-width:850px){nav{display:none}.search{width:45vw}.features{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:repeat(2,1fr)}.thumb{height:175px}.hero{min-height:470px}}
 @media(max-width:480px){.top{padding:13px 14px}.brand{font-size:1.2rem}.search{width:42vw;font-size:.78rem;padding:10px}.hero{min-height:490px;padding:55px 20px}.hero p{font-size:.97rem}.outline{margin-left:0}.features{padding:16px 12px;gap:8px}.feature{padding:6px 2px;gap:9px}.feature-icon{width:38px;height:38px}.feature b{font-size:.82rem}.feature small{font-size:.72rem}.cards{gap:11px}.thumb{height:135px}.cardbody{padding:11px}.cardbody h3{font-size:.9rem}.sectionhead{display:block}.sectionhead p{margin-top:10px}.worldhint{font-size:.72rem;bottom:65px;max-width:90%;text-align:center}.worldcontrols{left:50%;right:auto;transform:translateX(-50%);bottom:14px}}
 </style>
-.hero {
-background:
-linear-gradient(90deg, #071411 0%, #071411d9 35%, #07141155 100%),
-url(“https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1800&q=85”)
-center 50% / cover no-repeat;
-}
 
-.hero:before {
-background: linear-gradient(0deg, #071411 0%, transparent 45%);
-}
-
-.mountains {
-display: none;
-}
-
-/* Die vier Fotokarten */
-.card:nth-child(1) .thumb {
-background: url(“https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=900&q=80”) center / cover;
-}
-
-.card:nth-child(2) .thumb {
-background: url(“https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=900&q=80”) center / cover;
-}
-
-.card:nth-child(3) .thumb {
-background: url(“https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80”) center / cover;
-}
-
-.card:nth-child(4) .thumb {
-background: url(“https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=900&q=80”) center / cover;
-}
-
-.thumb:before {
-background: linear-gradient(0deg, #091912aa, transparent 65%);
-}
-
-.forest-scene {
-display: none;
-}
-
-/* Auch die große Ansicht zeigt ein Foto */
-.world {
-background-position: center;
-background-size: cover;
-}
-
-.worldground,
-.worldtree {
-display: none;
-}
-
-.world:before {
-content: “”;
-position: absolute;
-inset: 0;
-background: linear-gradient(0deg, #06170fcc, transparent 65%);
-pointer-events: none;
-}
 </head>
 <body>
 <header class="top">
